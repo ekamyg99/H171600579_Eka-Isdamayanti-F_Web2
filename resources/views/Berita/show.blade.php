@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="card">
-                <div class="card-header">Berita</div>
+                <div class="card-header text-center bg-info">Berita</div>
                 
                 <div class="card-body">
                     <div class="form-group row">
@@ -24,13 +24,7 @@
                     </div>
 
                      <div class="form-group row">
-                         <label  class="col-md-2 col-form-label text-md-right">Kategori Berita</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $Berita->kategori_berita_id !!}
-                         </label>
-                    </div>
-
-                    <div class="form-group row">
-                         <label  class="col-md-2 col-form-label text-md-right">Users Id</label>
+                         <label  class="col-md-2 col-form-label text-md-right">User Id</label>
                          <label  class="col-md-10 col-form-label text-md-left">{!! $Berita->users_id !!}
                          </label>
                     </div>

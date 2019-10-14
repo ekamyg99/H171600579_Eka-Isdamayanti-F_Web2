@@ -5,39 +5,38 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="card">
-                <div class="card-header">Galeri</div>
+                <div class="card-header text-center bg-info">Galeri</div>
                 
                 <div class="card-body">
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">ID</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $galeri->id !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Galeri->id !!}</label>
                     </div>
 
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">Nama</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $galeri->nama !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Galeri->nama !!}</label>
                     </div>
 
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">Keterangan</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $galeri->keterangan !!}</label>
-                    </div>
-
-                     <div class="form-group row">
-                         <label  class="col-md-2 col-form-label text-md-right">Path</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $galeri->path !!}
-                         </label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Galeri->keterangan !!}</label>
                     </div>
 
                     <div class="form-group row">
-                         <label  class="col-md-2 col-form-label text-md-right">Users Id</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $galeri->users_id !!}
+                         <label  class="col-md-2 col-form-label text-md-right">Path</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Galeri->path !!}</label>
+                    </div>
+
+                     <div class="form-group row">
+                         <label  class="col-md-2 col-form-label text-md-right">User Id</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Galeri->users_id !!}
                          </label>
                     </div>
 
                     <div class="form-group row">
                          <label  class="col-md-2 col-form-label text-md-right">Create</label>
-                         <label  class="col-md-10 col-form-label text-md-left">{!! $galeri->created_at->format('d/m/Y H:i:s') !!}</label>
+                         <label  class="col-md-10 col-form-label text-md-left">{!! $Galeri->created_at->format('d/m/Y H:i:s') !!}</label>
                     </div>
 
                     
